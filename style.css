@@ -74,3 +74,36 @@
         align-items: center;
         justify-content: center;
       }
+
+/* styles for footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media a {
+  margin-left: 10px;
+}
+
+.social-media img {
+  height: 30px;
+  width: 30px;
+}
